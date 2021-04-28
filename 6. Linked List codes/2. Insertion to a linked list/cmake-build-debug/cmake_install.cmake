@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/adeel/CLionProjects/DSA-Notes/untitled
+# Install script for directory: C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List codes/2. Insertion to a linked list
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/adeel/CLionProjects/DSA-Notes/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List codes/2. Insertion to a linked list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
