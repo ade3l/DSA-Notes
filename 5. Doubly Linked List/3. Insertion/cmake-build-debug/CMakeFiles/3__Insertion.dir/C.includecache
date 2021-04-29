@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/adeel/CLionProjects/DSA-Notes/5. Doubly Linked List/3. Insertion/main.c
+stdio.h
+-
+stdlib.h
+-
+
