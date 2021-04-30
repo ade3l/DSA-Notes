@@ -35,12 +35,14 @@ void display(){
 
 void insertAtBeg(){
     struct node *new_node;
+    new_node=(struct node*) malloc(sizeof(struct node));
     new_node->data=0;//read input from user if you want
     new_node->next=NULL;
+
     if(tail==NULL){
         //list is empty
         tail=new_node;
-        new_node->next=tail;
+        new_node->next=new_node;
     }
     else{
         new_node->next=tail->next;//new node now points to the first node
@@ -49,6 +51,7 @@ void insertAtBeg(){
 }
 void insertAtEnd(){
     struct node *new_node;
+    new_node=(struct node*) malloc(sizeof(struct node));
     new_node->data=100;//read input from user if you want
     new_node->next=NULL;
     if(tail==NULL){
@@ -65,7 +68,16 @@ void insertAtEnd(){
 }
 int main() {
     init();
-    printf("the list is:");
+    printf("The intial list is:");
     display();
+
+    printf("The list after inserting 0 at the beginning");
+    insertAtBeg();
+    display();
+
+    printf("The list after inserting 100 at the end");
+    insertAtEnd();
+    display();
+
     return 0;
 }
