@@ -46,7 +46,7 @@ void display(){
         //but it wont get printed as its 'next' is = head and the loop wont execute for it
         //so we need to print that
         printf("%d\n",temp->data);
-
+        //other method is to use a do while loop and put condition as temp!=head
     }
 }
 int main() {
