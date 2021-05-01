@@ -72,6 +72,23 @@ void insertAtEnd(){
         //only difference is that when inserting at the beginning head is moved and when at the end tail is moved
     }
 }
+void insertAtPos(){
+    struct node *temp;
+    int i=1,pos=5;//pos can be taken as input
+    temp=head;
+    struct node *new_node;
+    new_node=(struct node *) malloc(sizeof (struct node));
+    new_node->data=35;
+    while(i<pos-1){
+        temp=temp->next;
+        i++;
+    }
+    new_node->next=temp->next;
+    new_node->prev=temp;
+    temp->next->prev=new_node;
+    temp->next=new_node;
+
+}
 int main() {
     printf("The initial list is");
     init();
@@ -83,6 +100,10 @@ int main() {
 
     printf("The list after inserting 100 at the end");
     insertAtEnd();
+    display();
+
+    printf("The list after inserting 35 at position 5");
+    insertAtPos();
     display();
     return 0;
 }
