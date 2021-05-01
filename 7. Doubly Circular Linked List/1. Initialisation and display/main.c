@@ -24,7 +24,6 @@ void init(){
        else{
            tail->next=new_node;
            new_node->prev=tail;
-
            head->prev=new_node;
            new_node->next=head;
            tail=new_node;
