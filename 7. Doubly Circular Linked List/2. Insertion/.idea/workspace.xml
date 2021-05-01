@@ -12,9 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f18db8-8dc8-4902-9f3d-8c1702c838e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../1. Initialisation and display/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Initialisation and display/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1. Initialisation and display/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Initialisation and display/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -71,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619885873951</updated>
       <workItem from="1619885875741" duration="573000" />
-      <workItem from="1619889146810" duration="410000" />
+      <workItem from="1619889146810" duration="779000" />
     </task>
     <servers />
   </component>
