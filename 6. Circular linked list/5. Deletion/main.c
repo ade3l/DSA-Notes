@@ -38,10 +38,66 @@ void display(){
     printf("\n");
 }
 void deleteFromBeg(){
-    
+    struct node *temp;
+    temp=tail->next;//temp will now be at the first element of the list
+    if(tail==NULL){
+        printf("Empty list");
+    }
+    else if(tail==tail->next){
+        //This means that there is only one element in the CLL
+        printf("here");
+        tail=NULL;
+        free(temp);
+    }
+    else{
+        tail->next=temp->next;//making the last node point to the second node of the list so that we can delete the first one
+        free(temp);
+    }
+}
+
+void deleteFromEnd(){
+    //here we'll need 2 pointers.
+    //one to the last node and one to the second last one
+    struct node *current_node,*previous_node;
+    current_node=tail->next;
+    while(current_node->next!=tail->next){
+        previous_node=current_node;
+        current_node=current_node->next;
+        //the loop will break with current node on the last node and previous node on the second last node
+    }
+    previous_node->next=current_node->next;//make the second last node point to the first node
+    tail=previous_node;
+    free(current_node);
+}
+void deleteFromPos(){
+    int i=1,pos=4;//get pos input from the user if needed
+    struct node *current_node,*next_node;
+    current_node=tail->next;
+
+    while(i<pos-1){
+        current_node=current_node->next;
+        next_node=current_node->next;
+        i++;
+        //loop will break with next_node at the node to be deleted and current_node at the node before it
+    }
+    current_node->next=next_node->next;
+    free(next_node);
 }
 int main() {
     init();
     printf("The intial list is:");
-    display();    return 0;
+    display();
+
+    printf("The list after deleting from the beginning:");
+    deleteFromBeg();
+    display();
+
+    printf("The list after deleting from the end:");
+    deleteFromEnd();
+    display();
+
+    printf("The list after deleting from the 4th position:");
+    deleteFromPos();
+    display();
+    return 0;
 }
