@@ -4,6 +4,10 @@ struct node{
     int data;
     struct node *next;
 }*tail;
+
+//We will be using a CLL with only a tail
+//CLL with head can be done in the same way as a normal LL is done
+
 void init(){
     tail=NULL;
     struct node *new_node;
@@ -66,6 +70,24 @@ void insertAtEnd(){
     //Basically inserting at the end is same as inserting at the beginning but the tail pointer is moved to the new node.
     //in insert at beginning this isn't done
 }
+
+void insertAtPos(){
+    struct node *new_node,*temp;
+    int i=1,pos=5,num=35;//take pos and num as inputs from the user if needed
+    //add check conditions to check if pos=1||pos=length of list. if it is then call insert at begg or end
+    //also check if pos<1||pos>length. If it is, then it's an invalid position
+
+    new_node=(struct node*) malloc(sizeof(struct node));
+    new_node->data=35;
+    new_node->next=NULL;
+    temp=tail->next;//temp now points to the first node
+    while(i<pos-1){
+        temp=temp->next;
+        i++;
+    }
+    new_node->next=temp->next;
+    temp->next=new_node;
+}
 int main() {
     init();
     printf("The intial list is:");
@@ -79,5 +101,8 @@ int main() {
     insertAtEnd();
     display();
 
+    printf("The list after inserting 35 at position 5:");
+    insertAtPos();
+    display();
     return 0;
 }
