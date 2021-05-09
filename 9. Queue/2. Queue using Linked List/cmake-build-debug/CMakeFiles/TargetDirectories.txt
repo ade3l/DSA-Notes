@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/9. Queue/2. Queue using Linked List/cmake-build-debug/CMakeFiles/2__Queue_using_Linked_List.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/9. Queue/2. Queue using Linked List/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/9. Queue/2. Queue using Linked List/cmake-build-debug/CMakeFiles/rebuild_cache.dir

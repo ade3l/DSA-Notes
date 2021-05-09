@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/1. Initialisation and display/cmake-build-debug/CMakeFiles/1__Initialisation_and_display.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/1. Initialisation and display/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/1. Initialisation and display/cmake-build-debug/CMakeFiles/rebuild_cache.dir

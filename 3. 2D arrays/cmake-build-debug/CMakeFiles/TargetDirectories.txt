@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/5. 2D arrays/cmake-build-debug/CMakeFiles/5__2D_arrays.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/5. 2D arrays/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/5. 2D arrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir

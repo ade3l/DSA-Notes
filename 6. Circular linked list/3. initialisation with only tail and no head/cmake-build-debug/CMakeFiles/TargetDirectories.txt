@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/3. initialisation with only tail and no head/cmake-build-debug/CMakeFiles/3__initialisation_with_only_tail_and_no_head.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/3. initialisation with only tail and no head/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/3. initialisation with only tail and no head/cmake-build-debug/CMakeFiles/rebuild_cache.dir

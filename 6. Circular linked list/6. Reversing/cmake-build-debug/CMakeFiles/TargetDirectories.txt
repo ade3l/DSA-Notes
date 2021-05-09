@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/6. Reversing/cmake-build-debug/CMakeFiles/6__Reversing.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/6. Reversing/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Circular linked list/6. Reversing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/1. Traversal of Array/cmake-build-debug/CMakeFiles/1__Traversal_of_Array.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/1. Traversal of Array/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/1. Traversal of Array/cmake-build-debug/CMakeFiles/rebuild_cache.dir

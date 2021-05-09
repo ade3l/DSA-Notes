@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List (creation and display)/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List (creation and display)/cmake-build-debug/CMakeFiles/6__Linked_List__creation_and_display_.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List (creation and display)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

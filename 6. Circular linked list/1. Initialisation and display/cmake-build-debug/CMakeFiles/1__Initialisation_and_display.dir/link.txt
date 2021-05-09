@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\1__Initialisation_and_display.dir/objects.a
-C:\Users\adeel\mingw\mingw64\bin\ar.exe cr CMakeFiles\1__Initialisation_and_display.dir/objects.a @CMakeFiles\1__Initialisation_and_display.dir\objects1.rsp
-C:\Users\adeel\mingw\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\1__Initialisation_and_display.dir/objects.a -Wl,--no-whole-archive  -o 1__Initialisation_and_display.exe -Wl,--out-implib,lib1__Initialisation_and_display.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1__Initialisation_and_display.dir\linklibs.rsp

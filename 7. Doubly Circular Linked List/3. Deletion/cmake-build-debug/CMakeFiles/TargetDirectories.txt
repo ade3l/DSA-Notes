@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/7. Doubly Circular Linked List/3. Deletion/cmake-build-debug/CMakeFiles/3__Deletion.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/7. Doubly Circular Linked List/3. Deletion/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/7. Doubly Circular Linked List/3. Deletion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

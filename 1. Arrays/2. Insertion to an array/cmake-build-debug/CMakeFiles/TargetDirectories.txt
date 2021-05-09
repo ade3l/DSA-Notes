@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/2. Insertion to an array/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/2. Insertion to an array/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/2. Insertion to an array/cmake-build-debug/CMakeFiles/rebuild_cache.dir

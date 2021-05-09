@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/9. Queue/3. Queue using stack/cmake-build-debug/CMakeFiles/3__Queue_using_stack.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/9. Queue/3. Queue using stack/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/9. Queue/3. Queue using stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir

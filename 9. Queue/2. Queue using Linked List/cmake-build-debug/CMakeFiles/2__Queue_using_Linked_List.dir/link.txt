@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\2__Queue_using_Linked_List.dir/objects.a
-C:\Users\adeel\mingw\mingw64\bin\ar.exe cr CMakeFiles\2__Queue_using_Linked_List.dir/objects.a @CMakeFiles\2__Queue_using_Linked_List.dir\objects1.rsp
-C:\Users\adeel\mingw\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\2__Queue_using_Linked_List.dir/objects.a -Wl,--no-whole-archive  -o 2__Queue_using_Linked_List.exe -Wl,--out-implib,lib2__Queue_using_Linked_List.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\2__Queue_using_Linked_List.dir\linklibs.rsp

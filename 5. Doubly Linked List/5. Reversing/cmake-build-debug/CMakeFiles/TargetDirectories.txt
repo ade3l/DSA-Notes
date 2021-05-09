@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/5. Doubly Linked List/5. Reversing/cmake-build-debug/CMakeFiles/5__Reversing.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/5. Doubly Linked List/5. Reversing/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/5. Doubly Linked List/5. Reversing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

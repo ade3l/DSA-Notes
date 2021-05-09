@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\3__Queue_using_stack.dir/objects.a
-C:\Users\adeel\mingw\mingw64\bin\ar.exe cr CMakeFiles\3__Queue_using_stack.dir/objects.a @CMakeFiles\3__Queue_using_stack.dir\objects1.rsp
-C:\Users\adeel\mingw\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\3__Queue_using_stack.dir/objects.a -Wl,--no-whole-archive  -o 3__Queue_using_stack.exe -Wl,--out-implib,lib3__Queue_using_stack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\3__Queue_using_stack.dir\linklibs.rsp

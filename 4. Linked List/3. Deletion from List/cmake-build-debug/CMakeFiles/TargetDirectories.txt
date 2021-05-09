@@ -1,3 +1,0 @@
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List codes/3. Deletion from List/cmake-build-debug/CMakeFiles/3__Deletion_from_List.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List codes/3. Deletion from List/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/adeel/CLionProjects/DSA-Notes/6. Linked List codes/3. Deletion from List/cmake-build-debug/CMakeFiles/rebuild_cache.dir
