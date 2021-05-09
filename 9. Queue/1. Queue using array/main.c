@@ -70,6 +70,7 @@ int main() {
             case 2:dequeue();break;
             case 3:display();break;
             case 4:peek();break;
+            case 0: break;
             default:printf("\nInvalid input\n");break;
         }
     }while(choice);
