@@ -1,0 +1,3 @@
+C:/Users/adeel/CLionProjects/DSA-Notes/8. Stack/1. Stack using arrays/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/adeel/CLionProjects/DSA-Notes/8. Stack/1. Stack using arrays/cmake-build-debug/CMakeFiles/1__Stack_using_arrays.dir
+C:/Users/adeel/CLionProjects/DSA-Notes/8. Stack/1. Stack using arrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir

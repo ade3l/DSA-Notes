@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\5__Reversing.dir/objects.a
+C:\Users\adeel\mingw\mingw64\bin\ar.exe cr CMakeFiles\5__Reversing.dir/objects.a @CMakeFiles\5__Reversing.dir\objects1.rsp
+C:\Users\adeel\mingw\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\5__Reversing.dir/objects.a -Wl,--no-whole-archive  -o 5__Reversing.exe -Wl,--out-implib,lib5__Reversing.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\5__Reversing.dir\linklibs.rsp

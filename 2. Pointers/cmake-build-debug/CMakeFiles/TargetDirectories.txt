@@ -1,0 +1,3 @@
+C:/Users/adeel/CLionProjects/DSA-Notes/4. Pointers/cmake-build-debug/CMakeFiles/4__Pointers.dir
+C:/Users/adeel/CLionProjects/DSA-Notes/4. Pointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/adeel/CLionProjects/DSA-Notes/4. Pointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
