@@ -23,7 +23,7 @@ int main() {
             a[j+1]=a[j];
         }
         a[j+1]=temp;//inserting the value to sorted list
-        printf("\nSort %d:\t\t",i);
+        printf("\nPass %d:\t\t",i);
         print_array(a,i);
     }
 
