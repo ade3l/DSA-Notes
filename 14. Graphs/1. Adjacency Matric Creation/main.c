@@ -3,11 +3,11 @@
 char vertex_list[]={'A','B','C','D','E'};
 
 /*We will be creating:
-        2 -- 3
+        B -- C
        /   / |
-      1   /  |
+      A   /  |
        \ /   |
-        4 -- 5
+        D -- E
  */
 
 //Initialise the array with 0's
@@ -39,6 +39,7 @@ int main() {
     /*get_conn_input(&x,&y);
     add_edge(a,x,y);*/
     //    ---------------------------------
+    printf("Vertex list is:\t\t1:A\t2:B\t3:C\t4:D\t5:E\n");
     add_edge(a,1,2);
     add_edge(a,1,4);
     add_edge(a,2,3);
