@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\1__Adjacency_Matric_Creation.dir/objects.a
+C:\Users\adeel\mingw\mingw64\bin\ar.exe cr CMakeFiles\1__Adjacency_Matric_Creation.dir/objects.a @CMakeFiles\1__Adjacency_Matric_Creation.dir\objects1.rsp
+C:\Users\adeel\mingw\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\1__Adjacency_Matric_Creation.dir/objects.a -Wl,--no-whole-archive -o 1__Adjacency_Matric_Creation.exe -Wl,--out-implib,lib1__Adjacency_Matric_Creation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1__Adjacency_Matric_Creation.dir\linklibs.rsp
