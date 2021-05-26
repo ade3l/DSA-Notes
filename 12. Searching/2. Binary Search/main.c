@@ -7,7 +7,7 @@ void print_array(int a[]){
 }
 int binarySearch(int a[],int n,int data){
     int l=0, r=n-1,mid;
-    while(l<r) {
+    while(l<=r) {
          mid=(l+r)/2;
         printf("\nl, r, mid= %d, %d, %d",l,r,mid);
 
@@ -19,7 +19,7 @@ int binarySearch(int a[],int n,int data){
             l = mid + 1;
         }
     }
-    printf("\nl, r = %d, %d  (l!<r) So exiting search",l,r);
+    printf("\nl, r = %d, %d  (l>r) So exiting search",l,r);
 
     return -1;
 }
