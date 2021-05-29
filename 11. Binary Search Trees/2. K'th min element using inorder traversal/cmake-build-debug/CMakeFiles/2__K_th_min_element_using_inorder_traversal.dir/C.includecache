@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/adeel/CLionProjects/DSA-Notes/11. Binary Search Trees/2. K'th min element using inorder traversal/main.c
+stdio.h
+-
+stdlib.h
+-
+
