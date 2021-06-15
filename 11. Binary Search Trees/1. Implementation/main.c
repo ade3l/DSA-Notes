@@ -30,9 +30,9 @@ int main() {
 	  Creating an example tree
                 12
 			   /   \
-			  5     17
+			  3     17
 			 / \    /
-			3   7  13
+			1   7  13
            /     \
           1       9
     */
