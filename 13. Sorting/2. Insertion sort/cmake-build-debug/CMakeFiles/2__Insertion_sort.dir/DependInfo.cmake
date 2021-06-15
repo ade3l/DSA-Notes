@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/adeel/CLionProjects/DSA-Notes/12. Sorting/2. Insertion sort/main.c" "C:/Users/adeel/CLionProjects/DSA-Notes/12. Sorting/2. Insertion sort/cmake-build-debug/CMakeFiles/2__Insertion_sort.dir/main.c.obj"
+  "C:/Users/adeel/CLionProjects/DSA-Notes/13. Sorting/2. Insertion sort/main.c" "C:/Users/adeel/CLionProjects/DSA-Notes/13. Sorting/2. Insertion sort/cmake-build-debug/CMakeFiles/2__Insertion_sort.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

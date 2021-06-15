@@ -1,5 +1,5 @@
 #include <stdio.h>
-int size=6;
+int size=11;
 void print_array(int *a,int pos){
     printf("[");
     for(int i=0;i<size;i++) {
@@ -11,7 +11,7 @@ void print_array(int *a,int pos){
     }
 }
 int main() {
-    int a[]={5,4,10,1,6,2};
+    int a[]={12,80,30,28,44,56,23,19,45,90,20};
     printf("\nInitial array:\t");
     print_array(a,0);
     printf("\n");
