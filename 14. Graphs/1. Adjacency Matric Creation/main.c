@@ -16,10 +16,17 @@ void init(int a[v][v]){
         for(int j=0;j<v;j++)
             a[i][j]=0;
 }
+//A function to print the vertices
+void printVerts(){
 
+    for(int i=0;i<v;i++){
+        printf("\t%d:%c",(i+1),vertex_list[i]);
+    }
+}
 //Function to print the array
 void print_array(int a[v][v]){
-    printf("\n\tA\tB\tC\tD\tE");
+    printf("\n");
+    printVerts();
     for(int i=0;i<v;i++) {
         printf("\n");
         printf("%c:\t", vertex_list[i]);
@@ -35,11 +42,19 @@ void get_conn_input(int *x, int *y);
 int main() {
     int a[v][v],x,y;
     init(a);
-    //----------------Put this in a while loop if you want to add your own input-------------------
-    /*get_conn_input(&x,&y);
-    add_edge(a,x,y);*/
+    //----------------Use this while loop if you want to add your own input-------------------
+    /*  int choice=1;
+        while(choice){
+        get_conn_input(&x, &y);
+        add_edge(a, x, y);
+        printf("\n1. Add input \t0.Done");
+        scanf("%d",&choice);
+    }*/
     //    ---------------------------------
-    printf("Vertex list is:\t\t1:A\t2:B\t3:C\t4:D\t5:E\n");
+    printf("Vertex list is:\t");
+    printVerts();
+    printf("\n");
+
     add_edge(a,1,2);
     add_edge(a,1,4);
     add_edge(a,2,3);
@@ -52,7 +67,10 @@ int main() {
     return 0;
 }
 void get_conn_input(int *x, int *y){
-    printf("Vertex list is:\t\t1:A\t2:B\t3:C\t4:D\t5:E\n");
+    printf("Vertex list is:\t");
+    printVerts();
+    printf("\n");
+
     printf("\nEnter the first vertex number to establish a edge between:");
     scanf("%d",x);
     printf("Enter the second vertex number to establish the edge:");
