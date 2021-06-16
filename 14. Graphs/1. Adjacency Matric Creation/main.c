@@ -71,6 +71,6 @@ void get_conn_input(int *x, int *y){
     printVerts();
     printf("\n");
 
-    printf("\nEnter the first vertices to number to establish a edge between in the form \"a,b\":");
+    printf("\nEnter the vertices to number to establish a edge between in the form \"a,b\":");
     scanf("%d,%d",x,y);
 }
