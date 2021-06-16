@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define v 5
-char vertex_list[]={'A','B','C','D','E'};
+
 
 /*We will be creating:
         B -- C
@@ -20,7 +20,7 @@ void init(int a[v][v]){
 void printVerts(){
 
     for(int i=0;i<v;i++){
-        printf("\t%d:%c",(i+1),vertex_list[i]);
+        printf("\t%d:%c",(i+1),(char)(i+65));
     }
 }
 //Function to print the array
@@ -29,7 +29,7 @@ void print_array(int a[v][v]){
     printVerts();
     for(int i=0;i<v;i++) {
         printf("\n");
-        printf("%c:\t", vertex_list[i]);
+        printf("%c:\t", (char)(i+65));
         for (int j = 0; j < v; j++)
             printf("%d\t",a[i][j]);
     }
