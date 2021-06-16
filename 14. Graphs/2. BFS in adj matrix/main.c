@@ -53,6 +53,7 @@ void bfs(int v) {
 
     //Change the state of the vertex to waiting
     state[v]=waiting;
+
     while(!isEmpty_queue()){
 
         v=pop_queue();
@@ -68,9 +69,7 @@ void bfs(int v) {
         //Now that we've added all the incident vertices of the vertex, we can change it's state to visited
         state[v]=visited;
         printf("\nvisited vertex %c",(char) (v+65));
-
     }
-
 }
 
 int pop_queue() {
