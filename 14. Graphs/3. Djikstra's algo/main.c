@@ -4,7 +4,7 @@
 #define MAX 8
 #define initial 1
 # define visited 2
-int a[][MAX]={{0,2,0,7,0,12,0,2},{2,0,1,4,3,0,0,5},{0,1,0,0,4,0,0,4},{7,4,0,0,1,0,0,0},{0,3,4,1,0,0,7,0},{12,0,0,0,0,0,3,0},{0,0,0,0,7,3,0,0},{2,5,4,0,0,0,0,0}};
+int a[][MAX]={{0,2,0,7,0,12,0,2},{2,0,1,4,3,0,0,5},{0,1,0,0,4,0,0,4},{7,4,0,0,1,0,5,0},{0,3,4,1,0,0,7,0},{12,0,0,0,0,0,3,0},{0,0,0,5,7,3,0,0},{2,5,4,0,0,0,0,0}};
 int state[MAX],d[MAX];
 
 void print_dists(){
@@ -46,17 +46,17 @@ void djikstra(int v){
     //Distance to source vertex will always be 0
     d[v]=0;
     while(v!=-1){
+        state[v]=visited;
 
         for(int i=0;i<MAX;i++) {
             //Check for all the incident verices of the vertex that are unvisted
             if (a[v][i] != 0 && state[i] != visited) {
-                if (d[v] + a[v][i] < d[i]) {
+                if (d[v] + a[v][i] <=d[i]) {
                     d[i] = d[v] + a[v][i];
                 }
             }
         }
         //Once all incident vertices have been visited and the values are updated, the vertex can be said to be "visited"
-        state[v]=visited;
         //Getting the next vertex:
         v=findMin();
 
@@ -69,7 +69,7 @@ int findMin() {
 
     for(int i=0;i<MAX;i++){
         //Cycle through all the vertices and get the one with minimum distance
-        if(d[i]<dist && state[i]!=visited)
+        if(d[i]<=dist && state[i]!=visited)
         {   //If a vertex has a lesser distance than 'dist' then that  is the minimum vertedx
             dist=d[i];
             min=i;
