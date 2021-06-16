@@ -20,9 +20,11 @@ void printVerts(){
 }
 int findMin();
 void init();
-void djikstra();
+void djikstra(int);
 
 int main() {
+
+    //Setting the initial states and the distance to every vertex as infinity
     for(int i=0;i<MAX;i++) {
         state[i] = initial;
         d[i]=INT_MAX;
@@ -32,16 +34,19 @@ int main() {
     printf("\nEnter the vertex number to use as source");
     int v;
     scanf("%d",&v);
+
     djikstra(v-1);
+
     printf("Distances from the vertex: ");
     print_dists();
     return 0;
 }
 
 void djikstra(int v){
-
+    //Distance to source vertex will always be 0
     d[v]=0;
     while(v!=-1){
+
         for(int i=0;i<MAX;i++) {
             //Check for all the incident verices of the vertex that are unvisted
             if (a[v][i] != 0 && state[i] != visited) {
@@ -50,7 +55,9 @@ void djikstra(int v){
                 }
             }
         }
+        //Once all incident vertices have been visited and the values are updated, the vertex can be said to be "visited"
         state[v]=visited;
+        //Getting the next vertex:
         v=findMin();
 
     }
@@ -59,15 +66,20 @@ void djikstra(int v){
 int findMin() {
     int dist=INT_MAX,min=INT_MAX;
     int changed=0;
+
     for(int i=0;i<MAX;i++){
+        //Cycle through all the vertices and get the one with minimum distance
         if(d[i]<dist && state[i]!=visited)
-        {
+        {   //If a vertex has a lesser distance than 'dist' then that  is the minimum vertedx
             dist=d[i];
             min=i;
+
             changed=1;
         }
     }
-    if(changed==0){
+    //If none of the values are changed, it means that all vertices have been visited and changed will be remaining as 0
+    if(!changed){
+        //return -1 to break out from the while loop
         return -1;
     }
     else {
