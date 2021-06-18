@@ -17,6 +17,7 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
+
 set(CMAKE_AR "C:/Users/adeel/mingw/mingw64/bin/ar.exe")
 set(CMAKE_C_COMPILER_AR "C:/Users/adeel/mingw/mingw64/bin/gcc-ar.exe")
 set(CMAKE_RANLIB "C:/Users/adeel/mingw/mingw64/bin/ranlib.exe")

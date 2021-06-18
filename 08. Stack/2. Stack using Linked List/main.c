@@ -29,9 +29,44 @@ void pop(){
 }
 
 void display(){
-
+    struct node *temp;
+    temp=top;
+    if(top==NULL){
+        printf("\nEmpty stack");
+    }
+    else{
+        printf("\n");
+        while(temp!=NULL){
+            printf("%d\t",temp->data);
+            temp=temp->link;
+        }
+    }
+}
+void peek(){
+    if(top==NULL){
+        printf("\nEmpty stack");
+    }
+    else{
+        printf("\n%d",top->data);
+    }
 }
 int main() {
-    printf("Hello, World!\n");
+    int choice,x;
+
+    do{
+        printf("\nChoose what you want to do:\n1.Push\t2.Pop\t3.Peek\t4.Display:");
+        scanf("%d",&choice);
+        switch (choice){
+            case 1:
+                printf("\nEnter a number to push");
+                scanf("%d",&x);
+                push(x);
+                break;
+            case 2: pop();break;
+            case 3: peek();break;
+            case 4: display();break;
+            default:break;
+        }
+    }while(choice!=0);
     return 0;
 }
