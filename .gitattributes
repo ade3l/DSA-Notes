@@ -2,4 +2,5 @@
 * text=auto
 *.make linguist-detectable=false
 *.cmake linguist-detectable=false
+*.txt linguist-detectable=false
 */**/cmake-build-debug/* linguist-vendored
