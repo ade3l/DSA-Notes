@@ -2,4 +2,4 @@
 * text=auto
 *.cmake linguist-detectable=false
 *.CMake linguist-detectable=false
-*.Makefile linguist-detectable=false
+*.make linguist-detectable=false
